@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>UHS Hack Club Twilio Demo</title>
+
+        <style type="text/css">
+            #error {color:red;}
+            #success {color:green;}
+            body {font-family:Helvetica,Arial,sans-serif}
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <form id="form" method="post">
+                <p><label for="name">Enter your name: <input type="text" name="name" id="name" /></label></p>
+
+                <p><label for="phone">Enter your phone number: <input type="text" name="phone" id="phone" /></label></p>
+                <input type="submit" value="Send" />
+            </form>
+            <div>
+                <h2 id="error"></h2>
+                <h2 id="info"></h2>
+                <h2 id="success"></h2>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="form.js"></script>
+    </body>
+</html>
