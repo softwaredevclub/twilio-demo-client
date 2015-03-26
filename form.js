@@ -46,7 +46,7 @@ $('#form').submit(function(event) {
         logger.info('Sending message...')
 
         $.ajax({
-            url:"http://twiliodemo.loc:3002/send", // Replace with your server obviously
+            url:"http://twiliodemo-44626.onmodulus.net/send", // Replace with your server url
             jsonp:"callback", // JSONP to get around CORS issues
             dataType:"jsonp",
             data: {phone:phone, name:name},
